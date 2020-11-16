@@ -32,8 +32,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="451dp"
-        android:layout_height="55dp"
+        android:layout_width="590dp"
+        android:layout_height="59dp"
         android:background="#FFC0CB"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -88,14 +88,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
+        android:onClick="showLeaders"
         android:text="Leaderboard"
         app:layout_constraintBottom_toBottomOf="@+id/rvList"
         app:layout_constraintEnd_toEndOf="@+id/rvList"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="@+id/rvList"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.487"
-        android:onClick="showLeaders"/>
+        app:layout_constraintVertical_bias="0.487" />
 
     <Button
         android:id="@+id/btn_Badges"
