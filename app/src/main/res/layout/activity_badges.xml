@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:background="#FFC0CB"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="61dp">
+
+
+        <ImageView
+            android:id="@+id/five_games"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:visibility="invisible"
+
+            android:layout_margin="5sp"
+            app:srcCompat="@drawable/fivegames" />
+
+        <ImageView
+            android:id="@+id/ten_games"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            tools:srcCompat="@drawable/tengames" />
+
+        <ImageView
+            android:id="@+id/twenty_games"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            app:srcCompat="@drawable/twentygames"
+
+            />
+
+        <ImageView
+            android:id="@+id/fifty_games"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            app:srcCompat="@drawable/fiftygames"
+
+            />
+
+        <ImageView
+            android:id="@+id/full_marks"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            app:srcCompat="@drawable/fulklmarks"
+
+            />
+
+        <ImageView
+            android:id="@+id/top_charts"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+            app:srcCompat="@drawable/topofthecharts"
+
+            />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

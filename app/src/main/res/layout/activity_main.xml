@@ -5,7 +5,7 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainMenu" >
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvList"
@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
         android:text="Learn"
+        android:onClick="showLearn"
         app:layout_constraintBottom_toBottomOf="@+id/rvList"
         app:layout_constraintEnd_toEndOf="@+id/rvList"
         app:layout_constraintHorizontal_bias="0.492"
@@ -63,6 +64,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
         android:text="Practice"
+        android:onClick="showPractice"
         app:layout_constraintBottom_toBottomOf="@+id/rvList"
         app:layout_constraintEnd_toEndOf="@+id/rvList"
         app:layout_constraintHorizontal_bias="0.501"
@@ -76,6 +78,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
         android:text="Quiz"
+        android:onClick="showQuiz"
         app:layout_constraintBottom_toBottomOf="@+id/rvList"
         app:layout_constraintEnd_toEndOf="@+id/rvList"
         app:layout_constraintHorizontal_bias="0.496"
